@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Nunito Sans", sans-serif;
+    background-image: linear-gradient(to bottom right, #67b26f, #4ca2cd);
+}
+
+/* =========== START GAME =========== */
+#start-game {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #333;
+}
+
+#start-game h1 {
+    font-family: "Bungee Inline", sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 4rem;
+}
